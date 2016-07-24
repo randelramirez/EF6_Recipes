@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToManyWithoutPayload", "ManyToManyWithoutPayload\ManyToManyWithoutPayload.csproj", "{5788D2A7-BFD1-49D6-BEA3-18464CD10815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToManyWithPayload", "ManyToManyWithPayload\ManyToManyWithPayload.csproj", "{50C8BA3B-32D1-45F3-BC74-21579DF9E538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToManyWithoutPayloadFluentApi", "ManyToManyWithoutPayloadFluentApi\ManyToManyWithoutPayloadFluentApi.csproj", "{9A1C90FD-E420-4F40-BB87-C6CC28536044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToManyWithPayloadFluentApi", "ManyToManyWithPayloadFluentApi\ManyToManyWithPayloadFluentApi.csproj", "{7EC15682-6830-4AEC-B6E1-EE233EF98A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfReferencingDataAnnotation", "SelfReferencingDataAnnotation\SelfReferencingDataAnnotation.csproj", "{AA476BA7-D252-4779-8F04-5CF55D341A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfReferencingFluentApi", "SelfReferencingFluentApi\SelfReferencingFluentApi.csproj", "{74823AE4-70C8-4EE6-9201-F2ED85D1723C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5788D2A7-BFD1-49D6-BEA3-18464CD10815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5788D2A7-BFD1-49D6-BEA3-18464CD10815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5788D2A7-BFD1-49D6-BEA3-18464CD10815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5788D2A7-BFD1-49D6-BEA3-18464CD10815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C8BA3B-32D1-45F3-BC74-21579DF9E538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C8BA3B-32D1-45F3-BC74-21579DF9E538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C8BA3B-32D1-45F3-BC74-21579DF9E538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C8BA3B-32D1-45F3-BC74-21579DF9E538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A1C90FD-E420-4F40-BB87-C6CC28536044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1C90FD-E420-4F40-BB87-C6CC28536044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1C90FD-E420-4F40-BB87-C6CC28536044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1C90FD-E420-4F40-BB87-C6CC28536044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC15682-6830-4AEC-B6E1-EE233EF98A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC15682-6830-4AEC-B6E1-EE233EF98A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC15682-6830-4AEC-B6E1-EE233EF98A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC15682-6830-4AEC-B6E1-EE233EF98A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA476BA7-D252-4779-8F04-5CF55D341A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA476BA7-D252-4779-8F04-5CF55D341A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA476BA7-D252-4779-8F04-5CF55D341A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA476BA7-D252-4779-8F04-5CF55D341A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74823AE4-70C8-4EE6-9201-F2ED85D1723C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74823AE4-70C8-4EE6-9201-F2ED85D1723C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74823AE4-70C8-4EE6-9201-F2ED85D1723C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74823AE4-70C8-4EE6-9201-F2ED85D1723C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
