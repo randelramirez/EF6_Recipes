@@ -10,12 +10,9 @@ namespace ManyToManyWithPayloadFluentApi
 {
     public class OrderItem
     {
-        [Key]
-        [ForeignKey("Order")]
-        [Column(Order = 0)]
+
         public int OrderId { get; set; }
 
-        [Key, ForeignKey("Item"), Column(Order = 1)]
         public int ItemId { get; set; }
 
         public int Count { get; set; }

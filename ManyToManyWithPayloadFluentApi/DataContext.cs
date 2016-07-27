@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity;
 
 namespace ManyToManyWithPayloadFluentApi
 {
@@ -17,12 +12,23 @@ namespace ManyToManyWithPayloadFluentApi
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Order>()
-            //    .HasMany(order => order.OrderItems)
-            //    .WithRequired(orderItems => orderItems.Order)
-            //    .HasForeignKey()
-            
-            
+            // configure primary keys for Order and Item
+            //modelBuilder.Entity<Order>().HasKey(o => o.Id);
+            //modelBuilder.Entity<Item>().HasKey(i => i.Id);
+
+            // configure primary key for OrderItem
+            modelBuilder.Entity<OrderItem>()
+                .HasKey(orderItem => new { orderItem.OrderId, orderItem.ItemId });
+
+            modelBuilder.Entity<OrderItem>()
+                .HasRequired(orderItem => orderItem.Order)
+                .WithMany(order => order.OrderItems)
+                .HasForeignKey(orderItem => orderItem.OrderId);
+
+            modelBuilder.Entity<OrderItem>()
+                .HasRequired(orderItem => orderItem.Item)
+                .WithMany(item => item.OrderItems)
+                .HasForeignKey(orderItem => orderItem.OrderId);
         }
     }
 }

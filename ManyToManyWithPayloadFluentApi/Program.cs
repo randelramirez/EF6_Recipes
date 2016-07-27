@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ManyToManyWithPayloadFluentApi
 {
+    // http://stackoverflow.com/questions/5434125/entity-framework-codefirst-many-to-many-relationship-with-additional-information
+    // http://stackoverflow.com/questions/7050404/create-code-first-many-to-many-with-additional-fields-in-association-table
+    // http://stackoverflow.com/questions/16490334/how-to-define-many-to-many-relationship-through-fluent-api-entity-framework
+
     class Program
     {
         static void Main(string[] args)
