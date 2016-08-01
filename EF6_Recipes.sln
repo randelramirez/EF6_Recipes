@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfReferencingFluentApi", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplittingEntityAmongMultipleTables", "SplittingEntityAmongMultipleTables\SplittingEntityAmongMultipleTables.csproj", "{411AE173-33D3-4748-9D2C-B15E42FEAB70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplittingTableAmongMultipleEntities", "SplittingTableAmongMultipleEntities\SplittingTableAmongMultipleEntities.csproj", "{7BD1606D-B344-4958-B40F-C777951B0A6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{411AE173-33D3-4748-9D2C-B15E42FEAB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{411AE173-33D3-4748-9D2C-B15E42FEAB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{411AE173-33D3-4748-9D2C-B15E42FEAB70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD1606D-B344-4958-B40F-C777951B0A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD1606D-B344-4958-B40F-C777951B0A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD1606D-B344-4958-B40F-C777951B0A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD1606D-B344-4958-B40F-C777951B0A6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
