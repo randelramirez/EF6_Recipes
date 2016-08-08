@@ -28,8 +28,23 @@ namespace SplittingATableAmongMultipleEntities
                 var fullImage = new PhotoFullImage { HighResolution = fullBits };
                 photo.PhotoFullImage = fullImage;
                 context.Thumbnails.Add(photo);
-                context.SaveChanges();
+
+
+                var photo2 = new PhotoThumbnail
+                {
+                    Title = "My Dog",
+                    ThumbnailImage = thumbBits
+                };
+                var fullImage2 = new PhotoFullImage { HighResolution = fullBits };
+                fullImage2.PhotoThumbnail = photo2;
+                context.FullImages.Add(fullImage2);
+
                 // note: trying to save a PhotoFullImage without PhotoThumbnail will throw an exception
+                //var fullImage3 = new PhotoFullImage { HighResolution = fullBits };
+                //context.FullImages.Add(fullImage3);
+
+                context.SaveChanges();
+               
             }
 
             Console.ReadKey();
