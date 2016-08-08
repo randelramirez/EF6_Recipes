@@ -15,11 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfReferencingDataAnnotati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfReferencingFluentApi", "SelfReferencingFluentApi\SelfReferencingFluentApi.csproj", "{74823AE4-70C8-4EE6-9201-F2ED85D1723C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplittingEntityAmongMultipleTables", "SplittingEntityAmongMultipleTables\SplittingEntityAmongMultipleTables.csproj", "{411AE173-33D3-4748-9D2C-B15E42FEAB70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplittingATableAmongMultipleEntities", "SplittingATableAmongMultipleEntities\SplittingATableAmongMultipleEntities.csproj", "{71CE862E-98D9-46AC-B1EE-1F19EE248AA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplittingTableAmongMultipleEntities", "SplittingTableAmongMultipleEntities\SplittingTableAmongMultipleEntities.csproj", "{7BD1606D-B344-4958-B40F-C777951B0A6B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplittingTableAmongMultipleEntities_FluentAPI", "SplittingTableAmongMultipleEntities_FluentAPI\SplittingTableAmongMultipleEntities_FluentAPI.csproj", "{707937C3-C47C-4EED-B246-163D54B0559D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplittingATableAmongMultipleEntitiesFluentAPI", "SplittingATableAmongMultipleEntitiesFluentAPI\SplittingATableAmongMultipleEntitiesFluentAPI.csproj", "{9044C776-22C0-4A05-A8C2-5E998C6FF553}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,18 +49,14 @@ Global
 		{74823AE4-70C8-4EE6-9201-F2ED85D1723C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74823AE4-70C8-4EE6-9201-F2ED85D1723C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74823AE4-70C8-4EE6-9201-F2ED85D1723C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{411AE173-33D3-4748-9D2C-B15E42FEAB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{411AE173-33D3-4748-9D2C-B15E42FEAB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{411AE173-33D3-4748-9D2C-B15E42FEAB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{411AE173-33D3-4748-9D2C-B15E42FEAB70}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BD1606D-B344-4958-B40F-C777951B0A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BD1606D-B344-4958-B40F-C777951B0A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BD1606D-B344-4958-B40F-C777951B0A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BD1606D-B344-4958-B40F-C777951B0A6B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{707937C3-C47C-4EED-B246-163D54B0559D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{707937C3-C47C-4EED-B246-163D54B0559D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{707937C3-C47C-4EED-B246-163D54B0559D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{707937C3-C47C-4EED-B246-163D54B0559D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CE862E-98D9-46AC-B1EE-1F19EE248AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CE862E-98D9-46AC-B1EE-1F19EE248AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CE862E-98D9-46AC-B1EE-1F19EE248AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CE862E-98D9-46AC-B1EE-1F19EE248AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9044C776-22C0-4A05-A8C2-5E998C6FF553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9044C776-22C0-4A05-A8C2-5E998C6FF553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9044C776-22C0-4A05-A8C2-5E998C6FF553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9044C776-22C0-4A05-A8C2-5E998C6FF553}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

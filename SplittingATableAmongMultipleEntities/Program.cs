@@ -1,6 +1,7 @@
-﻿using System;
+﻿using SplittingAnEntityAmongMultipleTables;
+using System;
 
-namespace SplittingTableAmongMultipleEntities_FluentAPI
+namespace SplittingATableAmongMultipleEntities
 {
 
     /*

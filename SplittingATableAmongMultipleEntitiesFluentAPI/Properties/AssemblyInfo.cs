@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SplittingEntityAmongMultipleTables")]
+[assembly: AssemblyTitle("SplittingATableAmongMultipleEntitiesFluentAPI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SplittingEntityAmongMultipleTables")]
+[assembly: AssemblyProduct("SplittingATableAmongMultipleEntitiesFluentAPI")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("411ae173-33d3-4748-9d2c-b15e42feab70")]
+[assembly: Guid("9044c776-22c0-4a05-a8c2-5e998c6ff553")]
 
 // Version information for an assembly consists of the following four values:
 //

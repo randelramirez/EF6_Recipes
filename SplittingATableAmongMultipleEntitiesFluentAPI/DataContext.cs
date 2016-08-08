@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace SplittingTableAmongMultipleEntities_FluentAPI
+namespace SplittingATableAmongMultipleEntitiesFluentAPI
 {
     public class DataContext : DbContext
     {

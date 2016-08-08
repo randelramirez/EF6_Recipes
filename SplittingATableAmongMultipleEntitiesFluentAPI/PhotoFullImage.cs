@@ -1,4 +1,4 @@
-﻿namespace SplittingTableAmongMultipleEntities_FluentAPI
+﻿namespace SplittingATableAmongMultipleEntitiesFluentAPI
 {
     public class PhotoFullImage
     {

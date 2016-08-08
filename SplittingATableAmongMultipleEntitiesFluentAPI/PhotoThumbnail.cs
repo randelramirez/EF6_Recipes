@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SplittingTableAmongMultipleEntities_FluentAPI
+namespace SplittingATableAmongMultipleEntitiesFluentAPI
 {
     public class PhotoThumbnail
     {

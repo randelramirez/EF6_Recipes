@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7BD1606D-B344-4958-B40F-C777951B0A6B}</ProjectGuid>
+    <ProjectGuid>{71CE862E-98D9-46AC-B1EE-1F19EE248AA2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SplittingTableAmongMultipleEntities</RootNamespace>
-    <AssemblyName>SplittingTableAmongMultipleEntities</AssemblyName>
+    <RootNamespace>SplittingATableAmongMultipleEntities</RootNamespace>
+    <AssemblyName>SplittingATableAmongMultipleEntities</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
