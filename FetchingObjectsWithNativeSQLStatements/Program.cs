@@ -4,6 +4,8 @@ using System.Data.SqlClient;
 
 namespace FetchingObjectsWithNativeSQLStatements
 {
+
+    // Use case: You want to execute a native SQL statement and fetch objects from your database.
     class Program
     {
         static void Main(string[] args)
