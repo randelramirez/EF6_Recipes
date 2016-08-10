@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FetchingObjectsWithNativeSQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingAQueryResultToAModel", "MappingAQueryResultToAModel\MappingAQueryResultToAModel.csproj", "{BA52903B-E656-4A36-AC85-E0A9403115BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is_a_And_Has_a_Relationships", "Is_a_And_Has_a_Relationships\Is_a_And_Has_a_Relationships.csproj", "{D2E491B2-D770-45E7-95FE-E0181FB77FA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{BA52903B-E656-4A36-AC85-E0A9403115BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA52903B-E656-4A36-AC85-E0A9403115BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA52903B-E656-4A36-AC85-E0A9403115BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E491B2-D770-45E7-95FE-E0181FB77FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E491B2-D770-45E7-95FE-E0181FB77FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E491B2-D770-45E7-95FE-E0181FB77FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E491B2-D770-45E7-95FE-E0181FB77FA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
