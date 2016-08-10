@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingAQueryResultToAModel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is_a_And_Has_a_Relationships", "Is_a_And_Has_a_Relationships\Is_a_And_Has_a_Relationships.csproj", "{D2E491B2-D770-45E7-95FE-E0181FB77FA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingAMasterThatHasDetail", "FindingAMasterThatHasDetail\FindingAMasterThatHasDetail.csproj", "{2399A70F-04A6-4E67-BE81-4B33D5E190CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{D2E491B2-D770-45E7-95FE-E0181FB77FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2E491B2-D770-45E7-95FE-E0181FB77FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2E491B2-D770-45E7-95FE-E0181FB77FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2399A70F-04A6-4E67-BE81-4B33D5E190CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2399A70F-04A6-4E67-BE81-4B33D5E190CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2399A70F-04A6-4E67-BE81-4B33D5E190CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2399A70F-04A6-4E67-BE81-4B33D5E190CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
