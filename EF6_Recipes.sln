@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingAMasterThatHasDetail
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingDefaultValuesInAQuery", "SettingDefaultValuesInAQuery\SettingDefaultValuesInAQuery.csproj", "{A04CA4E4-8BAF-4CC1-B86C-9229E0CA8725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturningMultipleResultSetsFromAStoredProcedure", "ReturningMultipleResultSetsFromAStoredProcedure\ReturningMultipleResultSetsFromAStoredProcedure.csproj", "{EDCB75EC-7BB4-4A0A-82EC-4A7F2780DDF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{A04CA4E4-8BAF-4CC1-B86C-9229E0CA8725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A04CA4E4-8BAF-4CC1-B86C-9229E0CA8725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A04CA4E4-8BAF-4CC1-B86C-9229E0CA8725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCB75EC-7BB4-4A0A-82EC-4A7F2780DDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCB75EC-7BB4-4A0A-82EC-4A7F2780DDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCB75EC-7BB4-4A0A-82EC-4A7F2780DDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCB75EC-7BB4-4A0A-82EC-4A7F2780DDF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
