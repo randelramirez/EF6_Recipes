@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingDefaultValuesInAQuer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturningMultipleResultSetsFromAStoredProcedure", "ReturningMultipleResultSetsFromAStoredProcedure\ReturningMultipleResultSetsFromAStoredProcedure.csproj", "{EDCB75EC-7BB4-4A0A-82EC-4A7F2780DDF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingAgainstAListOfValues", "ComparingAgainstAListOfValues\ComparingAgainstAListOfValues.csproj", "{3EF2D018-D943-49D7-8712-6490D8AC269B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{EDCB75EC-7BB4-4A0A-82EC-4A7F2780DDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDCB75EC-7BB4-4A0A-82EC-4A7F2780DDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDCB75EC-7BB4-4A0A-82EC-4A7F2780DDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF2D018-D943-49D7-8712-6490D8AC269B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF2D018-D943-49D7-8712-6490D8AC269B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF2D018-D943-49D7-8712-6490D8AC269B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF2D018-D943-49D7-8712-6490D8AC269B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
