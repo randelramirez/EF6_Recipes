@@ -55,6 +55,15 @@ namespace GroupingByDate
                     }
                 }
             }
+
+            /*
+                The key to grouping the registrations by the date portion of the RegistrationDate property is to use the Truncate()
+                function. This built-in Entity Framework function, contained in the DbFunctions class, extracts just the date portion
+                of the DateTime value. The built-in DbFunctions contain a wide array of formatting, aggregation, string manipulation,
+                date-time, and mathematical services, and they are found in the System.Data.Entity namespace. The legacy
+                class, EntityFunctions, used prior to Entity Framework 6, will still work with Entity Framework 6, but will give you
+                a compiler warning suggesting you move to the DbFunctions class.
+             */
             Console.ReadKey();
         }
     }
