@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftOuterJoin", "LeftOuterJ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderingByDerivedTypes", "OrderingByDerivedTypes\OrderingByDerivedTypes.csproj", "{B45F5526-A143-440C-A6BB-A3A3B549A99F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagingAndFiltering", "PagingAndFiltering\PagingAndFiltering.csproj", "{42AC2F48-222E-4329-9E3A-4BDA29DCA912}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{B45F5526-A143-440C-A6BB-A3A3B549A99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B45F5526-A143-440C-A6BB-A3A3B549A99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B45F5526-A143-440C-A6BB-A3A3B549A99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42AC2F48-222E-4329-9E3A-4BDA29DCA912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AC2F48-222E-4329-9E3A-4BDA29DCA912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AC2F48-222E-4329-9E3A-4BDA29DCA912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AC2F48-222E-4329-9E3A-4BDA29DCA912}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
