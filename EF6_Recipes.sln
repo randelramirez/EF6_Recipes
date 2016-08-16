@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagingAndFiltering", "Pagin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupingByDate", "GroupingByDate\GroupingByDate.csproj", "{09B292F2-A8D5-4668-92EA-F2AEC55FD0BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatteningQueryResults", "FlatteningQueryResults\FlatteningQueryResults.csproj", "{E2E139CE-14CA-4FFE-A24C-ADBF4B4E9671}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{09B292F2-A8D5-4668-92EA-F2AEC55FD0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09B292F2-A8D5-4668-92EA-F2AEC55FD0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09B292F2-A8D5-4668-92EA-F2AEC55FD0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E139CE-14CA-4FFE-A24C-ADBF4B4E9671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E139CE-14CA-4FFE-A24C-ADBF4B4E9671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E139CE-14CA-4FFE-A24C-ADBF4B4E9671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E139CE-14CA-4FFE-A24C-ADBF4B4E9671}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
