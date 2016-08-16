@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FlatteningQueryResults
 {
@@ -38,6 +35,13 @@ namespace FlatteningQueryResults
                 context.Associates.Add(assoc3);
                 context.SaveChanges();
             }
+
+            /*
+                DefaultIfEmpty() method to get a left-outer join between the tables. The DefaultIfEmpty() method ensured that
+                we have rows from the left side (the Associate entities), even if there are no corresponding rows on the right side
+                (AssociateSalary entities). We project the results into an anonymous type, being careful to capture null values for the
+                salary and salary date when there are no corresponding AssociateSalary entities.
+             */
 
             using (var context = new DataContext())
             {
