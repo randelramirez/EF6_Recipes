@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatteningQueryResults", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupingByMultipleProperties", "GroupingByMultipleProperties\GroupingByMultipleProperties.csproj", "{0155C7C9-2FD1-4348-8463-0D2C188250EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoiningOnMultipleColumns", "JoiningOnMultipleColumns\JoiningOnMultipleColumns.csproj", "{327F2D93-50C7-4AB6-BA77-10013693AA21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{0155C7C9-2FD1-4348-8463-0D2C188250EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0155C7C9-2FD1-4348-8463-0D2C188250EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0155C7C9-2FD1-4348-8463-0D2C188250EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327F2D93-50C7-4AB6-BA77-10013693AA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327F2D93-50C7-4AB6-BA77-10013693AA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327F2D93-50C7-4AB6-BA77-10013693AA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327F2D93-50C7-4AB6-BA77-10013693AA21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
